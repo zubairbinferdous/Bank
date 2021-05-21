@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zubair Bank</title>
+  </head>
+
+  <body>
+    <div class="login-form" id="login-area">
+      <h3>Open Balance</h3>
+
+      <div class="user-info">
+        <div action="" class="center">
+          <input type="text" class="input_field" placeholder="User Name" required />
+          <input type="password" class="input_field" placeholder="Password" required/>
+          <button type="submit" class="login" id="login">login</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="amount-part" id="amount">
+      <h3>Your Total Balance</h3>
+
+      <div class="all_amount">
+
+        <div class="deposit">
+          <h1 class="title">Deposit</h1>
+          <p>$ <span id="cureentvalue"> 00 </span></p>
+        </div>
+
+        <div class="withdraw">
+          <h1 class="title" >Withdraw</h1>
+          <p>$ <span id="cureentWithdraw" > 00 </span></p>
+        </div>
+
+        <div class="balance">
+          <h1 class="title">Balance</h1>
+          <p>$ <span id="cureentBalance"> 00 </span> </p>
+        </div>
+
+      </div>
+
+      <div class="diposit-part">
+        <h2>Deposit</h2>
+        <input type="text" placeholder=" $ Amount You Want To Deposit " id="depositValue"/>
+        <button type="submit" id="addAmount">Deposit</button>
+      </div>
+
+      <div class="withdrow-part">
+        <h2>Withdrow</h2>
+        <input type="text" placeholder=" $ Amount You Want To Withdrow"    id="withdrow" />
+        <button type="submit" id="addawithdrow">Withdrow</button>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+    </script>
+  </body>
+</html>
